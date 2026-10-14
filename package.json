@@ -1,0 +1,14 @@
+{
+  "name": "tools-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run -ws --if-present dev",
+    "build": "npm run -ws --if-present build",
+    "test": "npm run -ws --if-present test",
+    "lint": "npm run -ws --if-present lint"
+  }
+}

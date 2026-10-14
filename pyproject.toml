@@ -1,0 +1,8 @@
+[project]
+name = "tools-monorepo"
+version = "0.1.0"
+description = "Monorepo workspace for internal tooling projects"
+requires-python = ">=3.11"
+
+[tool.uv.workspace]
+members = ["apps/*", "packages/*"]

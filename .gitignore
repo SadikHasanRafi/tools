@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# JavaScript / Node
+node_modules/
+.npm/
+.pnpm-store/
+yarn-error.log*
+package-lock.json
+npm-debug.log*
+
+# Frontend build outputs
+build/
+dist/
+.next/
+out/
+.cache/
+.parcel-cache/
+.vite/
+coverage/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Monorepo caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.turbo/
+
+# Python packaging
+*.egg-info/

@@ -1,0 +1,11 @@
+[project]
+name = "scrap-erki"
+version = "0.1.0"
+description = "Selenium-based content scraping and publishing automation"
+requires-python = ">=3.11"
+dependencies = [
+  "selenium>=4.14.0",
+]
+
+[tool.uv]
+package = true
